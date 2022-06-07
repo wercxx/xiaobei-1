@@ -48,6 +48,8 @@ jobs:
           XB_COORD: ${{secrets.XB_COORD}}
           # 选填 填则通知，不填则不通知
           XB_WXAPP: ${{secrets.XB_WXAPP}}
+          SENDKEY: ${{secrets.XB_SENDKEY}}
+          
           # 选填 填则通知，不填则不通知
           XB_EMAIL: ${{secrets.XB_EMAIL}}
         run: |
