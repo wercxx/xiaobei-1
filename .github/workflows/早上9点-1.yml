@@ -46,12 +46,7 @@ jobs:
           XB_LOCATION: ${{secrets.XB_LOCATION}}
           # 选填
           XB_COORD: ${{secrets.XB_COORD}}
-          # 选填 填则通知，不填则不通知
-          XB_WXAPP: ${{secrets.XB_WXAPP}}
           SENDKEY: ${{secrets.XB_SENDKEY}}
           TG_BOT_TOKEN: ${{secrets.XB_BOT_TOKEN}}
-          
-          # 选填 填则通知，不填则不通知
-          XB_EMAIL: ${{secrets.XB_EMAIL}}
         run: |
           python3.9 main.py
